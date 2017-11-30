@@ -1,0 +1,62 @@
+
+.maincls {
+    padding-right: 25px;
+    padding-left: -3px;
+    margin-left: -15px;
+}
+body, html {
+    height: 100%;
+}
+
+.statusbar {
+    background-image: url(/ferret_background.png);
+    background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
+	height:660px;
+	margin-right: -23px;
+  
+}
+
+#formid{
+    margin-top: 146px;
+}
+.statustxt{
+	color:#fff;
+}
+
+.form-control {
+     height: 74px;
+     width: 100%;
+    position: relative;
+    padding: 6px 24px;
+    border: 1px solid rgba(0,0,0,.15);
+    margin-bottom: -1px;
+    background-color: #fff;
+    color: #333;
+    opacity: 1;
+   
+}
+.form-group {
+    margin-bottom: -26px;
+}
+
+.errorspace {
+   
+    padding: 5px;
+}
+
+.progbar {
+    top: 40%;
+    position: relative;
+  
+    padding: 29px 70px;
+ }
+
+ .actonIcon {
+    top: 0px;
+    position: absolute;
+    right: 116px;
+}

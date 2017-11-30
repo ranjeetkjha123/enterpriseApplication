@@ -1,0 +1,28 @@
+
+<div class="statusbar" width="100%" ng-controller="ProgressBarDemoCtrl as vm">
+	<div class="progbar">
+
+    <div id="ux-container">
+	<h1 class="statustxt">{{ title1 }}</h1>
+        <progressbar value="vm.percentComplete" type="accent" max="100">
+        <span ng-bind="vm.percentComplete+'%'"></span>
+        </progressbar>
+      <a ui-sref="dashboard"> <button type="button" class="btn btn-primary btn-lg" ng-click="vm.random()">Dashboard</button></a>
+    </div>
+    </div>
+
+    <div class="actonIcon">
+   	<div class="btn-group">
+    <button class="btn button-secondary dropdown-toggle pull-right" data-toggle="dropdown">
+        <i class="hpe-icon hpe-user hpe-2x" aria-hidden="true"></i>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#/status"></i>&nbsp; Admin</a></li>
+        <li><a href="#/login" ng-click="logout()"></i>&nbsp;Logout</a></li>
+       
+    </ul>
+ </div>
+
+   </div>
+
+</div>
