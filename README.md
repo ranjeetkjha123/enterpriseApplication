@@ -1,42 +1,29 @@
-# Grommet Example App: Ferret
+# UX Aspects
 
-[![Build Status](https://api.travis-ci.org/grommet/grommet-ferret.svg)](https://travis-ci.org/grommet/grommet-ferret) [![Code Climate](https://codeclimate.com/github/grommet/grommet-ferret/badges/gpa.svg)](https://codeclimate.com/github/grommet/grommet-ferret)  [![Dependency Status](https://david-dm.org/grommet/grommet-ferret.svg)](https://david-dm.org/grommet/grommet-ferret)  [![devDependency Status](https://david-dm.org/grommet/grommet-ferret/dev-status.svg)](https://david-dm.org/grommet/grommet-ferret#info=devDependencies)
+UX Aspects is an open source user interface framework for building modern, responsive, mobile big data applications on the web.
 
-## Demo
-[Live demo](http://ferret.grommet.io/) of an example application using grommet and grommet-index.
 
-Login credentials: `Username` any string that looks like an email address and any `Password` (not used or stored).
+# Documentation and Examples
 
-## How To
-This app demonstrates an application using [Modular Grommet](http://grommet.io/docs/develop/get-started).
-We demonstrate UI routing and some important patterns like Login, Resource Management (including WebSocket connections), and Search. This application **must** have a back-end to perform login operations and manage resources.
+1. Clone the respository:
+```bash
+git clone https://github.com/ranjeetkjha123/enterpriseApplication.git
+```
+2. Install the dependencies using `npm` in the repository directory:
+# Installation
 
-**IMPORTANT**: Make sure to run `npm install` at Grommet root folder.
+npm install @ux-aspects/ux-aspects --save
 
-To run this application, execute the following commands:
+# To run on localhost
 
-  1. Install NPM modules
-    ```
-    $ cd grommet-ferret
-    $ npm install
-    ```
-  2. Start the server
+npm install http-server -g  (This will install http-server globally so that it may be run from the command line.)
 
-    ```
-    $ cd server
-    $ gulp dev
-    ```
+[path] defaults to ./public if the folder exists, and ./ otherwise.
 
-  3. Start the UI development server
-    ```
-    $ gulp dev
-    ```
 
-  4. Login credentials: `Username` any string that looks like an email address and any `Password` (not used or stored).
+3. Build the project and start the development server. This will automatically rebuild when source changes are made.
+```bash
 
-  5. Check Ferret production server
-    ```
-    $ cd grommet-ferret
-    $ gulp dist
-    $ node server/server.js
-    ```
+run this command  ->   $http-server
+
+ http://127.0.0.1:8080
