@@ -54,8 +54,18 @@
    <flot dataset="tc.detailedChart.data" options="tc.detailedChart.options"></flot>
 </div>
 </div>
-
-
+<br>
+<br>
+<div ng-controller="LineChartCtrl as lc" id="ux-codepen-container">
+<div class="flot-chart">
+  <flot dataset="lc.lineChart.data" options="lc.lineChart.lineoptions"
+    on-plot-click="lc.lineChart.onPlotClick(event,pos,item)"
+    on-hover-click="lc.lineChart.onPlotHover(event,pos,item)">
+  </flot>
+</div>
+</div>
+<br>
+<br>
 </div>
 
 </div>
